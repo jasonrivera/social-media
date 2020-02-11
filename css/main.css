@@ -218,7 +218,8 @@ header .search-area ul li input:focus {
 }
 
 #content-area .widget-box .head .widget-icon{
-    background: #bfbfbf;
+    /* background: #bfbfbf; */
+    background-color: #009ABC;
     height: 40px;
     width: 40px;
     margin-right: 10px;
@@ -228,6 +229,17 @@ header .search-area ul li input:focus {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#content-area .widget-box.friends .head .widget-icon i.fa {
+    max-width: 50%;
+    font-size: 20px;
+    text-align: center;
+}
+
+#content-area .widget-box .head .widget-icon.photo-section img {
+    max-width: 100%;
+    border-radius: 50%;
 }
 
 #content-area .widget-box .head .widget-icon i.fa {
